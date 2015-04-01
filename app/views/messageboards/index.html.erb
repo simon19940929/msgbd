@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Messageboards</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @messageboards.each do |messageboard| %>
+      <tr>
+        <td><%= messageboard.title %></td>
+        <td><%= messageboard.description %></td>
+        <td><%= link_to 'Show', messageboard %></td>
+        <td><%= link_to 'Edit', edit_messageboard_path(messageboard) %></td>
+        <td><%= link_to 'Destroy', messageboard, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Messageboard', new_messageboard_path %>
