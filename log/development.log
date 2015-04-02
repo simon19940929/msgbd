@@ -1068,3 +1068,45 @@ Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 
 
 
 Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-02 01:22:21 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-02 11:24:01 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TopicsController#index as HTML
+  [1m[35mTopic Load (0.1ms)[0m  SELECT "topics".* FROM "topics"
+  Rendered topics/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 694ms (Views: 677.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/messageboards-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-02 11:24:02 +0800
+
+
+Started GET "/assets/topics-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-02 11:24:02 +0800
+
+
+Started GET "/assets/scaffolds-f768287d943220a5414f54a26860b711.css?body=1" for 127.0.0.1 at 2015-04-02 11:24:02 +0800
+
+
+Started GET "/assets/topics-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-02 11:24:02 +0800
+
+
+Started GET "/assets/messageboards-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-02 11:24:02 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for 127.0.0.1 at 2015-04-02 11:24:02 +0800
+
+
+Started GET "/assets/application-78d9b9f90edbbe2302e40dd2568fbfb6.css?body=1" for 127.0.0.1 at 2015-04-02 11:24:02 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-02 11:24:02 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-02 11:24:02 +0800
+
+
+Started GET "/topics/new" for 127.0.0.1 at 2015-04-02 11:24:39 +0800
+Processing by TopicsController#new as HTML
+  Rendered topics/_form.html.erb (37.4ms)
+  Rendered topics/new.html.erb within layouts/application (42.6ms)
+Completed 200 OK in 96ms (Views: 95.3ms | ActiveRecord: 0.0ms)
